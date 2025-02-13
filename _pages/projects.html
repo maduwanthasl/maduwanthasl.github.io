@@ -5,38 +5,8 @@ permalink: /projects/
 author_profile: true
 ---
 
-## 🚀 Featured Projects
-
-### 🤖 Bin Picking Robot
-- Developed a **vision-based robotic system** for bin picking.
-- Designed two PCB versions:
-  - Version 1: **ATmega2560**
-  - Version 2: **ATmega328P**
-- Programmed using **Microchip Studio**, integrated **u8g2 library** for OLED display.
-- [GitHub Repository](https://github.com/mora-bprs/Bin-picking-source-code/tree/main)
-
-### ⚡ Analog High-Frequency Amplifier
-- Designed and manufactured a **double-layer PCB** for a **high-frequency amplifier**.
-- Achieved **21x open circuit gain** and **700 kHz bandwidth**.
-- Developed under **In21-S3-EN2091 Laboratory Practice and Projects module**.
-- [GitHub Repository](https://github.com/maduwanthasl/Analog-High-Frequency-Amplifier-V1)
-
-### 🤖 ROS2 Robot Arm Simulation
-- Built a **ROS2 simulation** model for a robotic arm.
-- Integrated **kinematics, trajectory planning, and control algorithms**.
-
-### 🌿 RefreshMate – Automated Air Renewal System
-- Designed a **smart air freshener system** using:
-  - **ATTiny85**
-  - **ESP8266**
-  - **HC-05 Bluetooth module**
-- PCB design: **Altium Designer**  
-- Enclosure modeling: **SolidWorks**
-
----
-
-## 🏗️ More Projects
 {% include base_path %}
+
 {% for post in site.projects reversed %}
   {% include archive-single.html %}
 {% endfor %}
