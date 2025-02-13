@@ -11,11 +11,11 @@ redirect_from:
 
 ## 🤖 Robotics, AI & Additive Manufacturing Enthusiast
 
-I am a third-year undergraduate student at the **University of Moratuwa**, pursuing a degree in **Electronic and Telecommunication Engineering**. I am passionate about **robotics, embedded systems, AI, and additive manufacturing**.
+I am deeply passionate about the transformative power of **geometry processing** in **AI, robotics, additive manufacturing, and 4D printing**. As a **Research Intern at the Singapore University of Technology and Design’s Digital Manufacturing and Design Centre (DManD)**, I am exploring the intersection of **4D printing, additive manufacturing, and robotics**. My work focuses on leveraging **geometric principles** to design adaptive structures and optimize fabrication processes, bridging the gap between digital design and physical realization.
 
-## 🔬 Research Interests
+With expertise in **parametric design tools like Rhino and Grasshopper**, as well as hands-on experience with **FullControl GCode and ROS2**, I aim to contribute to cutting-edge research in **geometry processing**. I am particularly excited about the potential of **4D printing and adaptive geometries** to revolutionize industries ranging from **healthcare to aerospace**.
 
-My research interests revolve around **robotics, artificial intelligence, and embedded systems**. I am particularly interested in **vision-based robotic control, reinforcement learning for robotics, and low-power embedded design**.
+By collaborating with leading researchers and innovators, I strive to deepen my understanding and drive groundbreaking advancements in the field. For me, **geometry is more than a mathematical discipline**—it is a **universal language** that connects ideas across domains, enabling us to design, optimize, and create in ways that were once unimaginable.
 
 ## 📚 Key Projects
 
@@ -43,14 +43,16 @@ My research interests revolve around **robotics, artificial intelligence, and em
 - **B.Sc. in Electronic and Telecommunication Engineering** (Ongoing) – University of Moratuwa
 
 ## 👨🏻‍🔬 Professional Experience
-- **Robotic Research Internship** (Planned for 6th Semester) – Research in **robotics and machine learning**.
+- **Research Intern at Singapore University of Technology and Design (SUTD) – Digital Manufacturing and Design Centre (DManD)** – Research in **4D printing, additive manufacturing, and robotics**.
+- **Finalist, Sri Lanka Robotics Challenge (SLRC)** – Competed in Sri Lanka’s largest robotics challenge.
 - **EXMO 2023 – University of Moratuwa** – Explained **analog lab components** to students at the flagship engineering exhibition.
 
 ## 📚 Teaching & Community Contributions
-- Finalist in the **Sri Lanka Robotics Challenge (SLRC)**, the largest robotics challenge in Sri Lanka.
-- Contributed to **open-source** projects in **robotics and embedded systems**.
+- **University Workshops** – Conducted sessions on **PCB design, microcontroller programming, and ROS2 for robotics**.
+- **GitHub Contributions** – Open-source projects on **robotics and embedded systems**.
 - Published projects and research on **GitHub and LinkedIn**.
 
 Feel free to connect with me!
 
 📧 Email: **hirushamaduwantha0@gmail.com**
+
