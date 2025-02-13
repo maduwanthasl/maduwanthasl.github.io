@@ -1,36 +1,42 @@
 ---
 layout: archive
 title: "Projects"
-permalink: /Projects/
+permalink: /projects/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## 🚀 Featured Projects
 
+### 🤖 Bin Picking Robot
+- Developed a **vision-based robotic system** for bin picking.
+- Designed two PCB versions:
+  - Version 1: **ATmega2560**
+  - Version 2: **ATmega328P**
+- Programmed using **Microchip Studio**, integrated **u8g2 library** for OLED display.
+- [GitHub Repository](https://github.com/mora-bprs/Bin-picking-source-code/tree/main)
+
+### ⚡ Analog High-Frequency Amplifier
+- Designed and manufactured a **double-layer PCB** for a **high-frequency amplifier**.
+- Achieved **21x open circuit gain** and **700 kHz bandwidth**.
+- Developed under **In21-S3-EN2091 Laboratory Practice and Projects module**.
+- [GitHub Repository](https://github.com/maduwanthasl/Analog-High-Frequency-Amplifier-V1)
+
+### 🤖 ROS2 Robot Arm Simulation
+- Built a **ROS2 simulation** model for a robotic arm.
+- Integrated **kinematics, trajectory planning, and control algorithms**.
+
+### 🌿 RefreshMate – Automated Air Renewal System
+- Designed a **smart air freshener system** using:
+  - **ATTiny85**
+  - **ESP8266**
+  - **HC-05 Bluetooth module**
+- PCB design: **Altium Designer**  
+- Enclosure modeling: **SolidWorks**
+
+---
+
+## 🏗️ More Projects
 {% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% for post in site.projects reversed %}
+  {% include archive-single.html %}
+{% endfor %}
