@@ -10,12 +10,11 @@ redirect_from:
 ![Cartoon Infographic of Combining Additive Manufacturing, Robotics, and AI](/images/Header_image.jpg){:align="right" width="300px"}
 
 ## 👋🏼 Hello there, I’m Hirusha Madhuwantha!
+I’m passionate about how geometry processing can transform AI, robotics, additive manufacturing, and 4D printing. As a Research Intern at the **Digital Manufacturing and Design Centre (DManD)** at <a href='https://www.sutd.edu.sg/' target='_blank'>Singapore University of Technology and Design</a>, I’m working at the intersection of **4D printing, machine learning, additive manufacturing and robotics**, exploring how geometric principles can help design adaptive structures and improve fabrication processes.
 
-### 🤖 Robotics, AI & Additive Manufacturing Enthusiast
+I have experience with parametric design tools like Rhino and Grasshopper, as well as FullControl GCode and ROS2, which I use to develop smarter, more efficient designs. I’m especially excited about how 4D printing and adaptive geometries can push the boundaries of industries like healthcare and aerospace.
 
-I am deeply passionate about the transformative power of **geometry processing** in **AI, robotics, additive manufacturing, and 4D printing**. As a **Research Intern at the Singapore University of Technology and Design’s Digital Manufacturing and Design Centre (DManD)**, I am exploring the intersection of 4D printing, additive manufacturing, Machine Learning and robotics. My work focuses on leveraging **geometric principles** to design adaptive structures and optimize fabrication processes, bridging the gap between digital design and physical realization.
-
-With expertise in **parametric design tools like Rhino and Grasshopper**, as well as hands-on experience with **FullControl GCode and ROS2**, I aim to contribute to cutting-edge research in **geometry processing**. I am particularly excited about the potential of **4D printing and adaptive geometries** to revolutionize industries ranging from **healthcare to aerospace**.
+By working with experts in the field, I aim to deepen my knowledge and contribute to cutting-edge innovations. To me, geometry isn’t just math—it’s a universal language that helps us bridge the gap between digital design and the physical world, opening up new possibilities for the future.
 
 By collaborating with leading researchers and innovators, I strive to deepen my understanding and drive groundbreaking advancements in the field. For me, **geometry is more than a mathematical discipline**—it is a **universal language** that connects ideas across domains, enabling us to design, optimize, and create in ways that were once unimaginable.
 
