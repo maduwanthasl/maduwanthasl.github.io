@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-![Cartoon Inforgrapics of Combining Additive manufacturing, Robotics and AI](/images/Header_image.jpg){: algin-right width="300px"}👋🏼 Hello there, I’m Hirusha Madhuwantha!
+![Cartoon Infographic of Combining Additive Manufacturing, Robotics, and AI](/images/Header_image.jpg){:align="right" width="300px"}
+
+👋🏼 Hello there, I’m Hirusha Madhuwantha!
 
 ## 🤖 Robotics, AI & Additive Manufacturing Enthusiast
 
