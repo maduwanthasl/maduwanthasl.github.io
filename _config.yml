@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Robotics, Additive Manufacturing & AI Enthusiast"
   location         : "Sri Lanka"
-  employer         : "<a href='https://brd.sutd.edu.sg/'>Singapore University of Technology and Design</a>"
+  employer         : "Singapore University of Technology and Design"
   education        : "University of Moratuwa, Sri Lanka"
   uri              : # URL
   email            : "hirushamaduwantha0@gmail.com" 
@@ -62,7 +62,7 @@ author:
   lastfm           : # Username
   linkedin         : "hirusha-maduwantha"
   mastodon         : # URL
-  medium           : "hirusha2me"
+  medium           : "https://medium.com/@hirusha2me"
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
