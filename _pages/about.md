@@ -1,4 +1,11 @@
-# 👋🏼 Hello there, I’m Hirusha Madhuwantha!
+---
+permalink: /
+title: "👋🏼 Hello there, I’m Hirusha Madhuwantha!"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
 
 ## 🤖 Robotics, AI & Additive Manufacturing Enthusiast
 
