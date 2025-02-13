@@ -14,8 +14,6 @@ I’m passionate about how geometry processing can transform AI, robotics, addit
 
 I have experience with parametric design tools like Rhino and Grasshopper, as well as FullControl GCode and ROS2, which I use to develop smarter, more efficient designs. I’m especially excited about how 4D printing and adaptive geometries can push the boundaries of industries like healthcare and aerospace.
 
-By working with experts in the field, I aim to deepen my knowledge and contribute to cutting-edge innovations. To me, geometry isn’t just math—it’s a universal language that helps us bridge the gap between digital design and the physical world, opening up new possibilities for the future.
-
 By collaborating with leading researchers and innovators, I strive to deepen my understanding and drive groundbreaking advancements in the field. For me, **geometry is more than a mathematical discipline**—it is a **universal language** that connects ideas across domains, enabling us to design, optimize, and create in ways that were once unimaginable.
 
 ## 📚 Key Projects
