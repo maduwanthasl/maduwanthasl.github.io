@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+![Cartoon Inforgrapics of Combining Additive manufacturing, Robotics and AI](/images/Header_image.jpg){: algin-right width="300px"}
+
 ## 🤖 Robotics, AI & Additive Manufacturing Enthusiast
 
 I am a third-year undergraduate student at the **University of Moratuwa**, pursuing a degree in **Electronic and Telecommunication Engineering**. I am passionate about **robotics, embedded systems, AI, and additive manufacturing**.
@@ -52,5 +54,3 @@ My research interests revolve around **robotics, artificial intelligence, and em
 Feel free to connect with me!
 
 📧 Email: **hirushamaduwantha0@gmail.com**
-
-🔗 [GitHub](https://github.com/maduwanthasl)  |  [LinkedIn](https://www.linkedin.com/in/hirusha-maduwantha/)  |  [Google Scholar]()  |  [ORCID]()
