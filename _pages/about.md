@@ -1,6 +1,6 @@
 ---
-permalink: /
-title: Hirusha's Homepage
+permalink: Hirusha's Homepage
+title: /
 author_profile: true
 redirect_from: 
   - /about/
