@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋🏼 Hello there, I’m Hirusha Madhuwantha!"
+title: "Hirusha's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 ![Cartoon Inforgrapics of Combining Additive manufacturing, Robotics and AI](/images/Header_image.jpg){: algin-right width="300px"}
+"👋🏼 Hello there, I’m Hirusha Madhuwantha!"
 
 ## 🤖 Robotics, AI & Additive Manufacturing Enthusiast
 
