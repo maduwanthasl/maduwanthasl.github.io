@@ -37,25 +37,25 @@ By collaborating with leading researchers and innovators, I strive to deepen my 
 ## 🎓 Education
 
 ### Research Intern, Digital Manufacturing and Design Centre (DManD)
-**Singapore University of Technology and Design (SUTD), Singapore**  
+Singapore University of Technology and Design (SUTD), Singapore  
 12/2024 – 06/2025  
-- Conducting research in **4D printing and additive manufacturing**, leveraging tools like **Rhino, Grasshopper, and FullControl GCode** to optimize 3D/4D printed structures.  
-- Integrating **robotics** into fabrication processes to explore **adaptive geometries** and **smart materials** for advanced manufacturing.  
+- Conducting research in 4D printing and additive manufacturing, leveraging tools like Rhino, Grasshopper, and FullControl GCode to optimize 3D/4D printed structures.  
+- Integrating robotics into fabrication processes to explore adaptive geometries and smart materials for advanced manufacturing.  
 
 ### B.Sc. Electronic and Telecommunication Engineering (Hons)
-**University of Moratuwa, Moratuwa, Sri Lanka**  
+University of Moratuwa, Moratuwa, Sri Lanka 
 08/2022 – 05/2026 (Third-year undergraduate)  
 - **Relevant Coursework:** Pattern Recognition, Operational Research, Data Structures and Algorithms, Differential Equations, Calculus, Linear Algebra.  
 
 ### Diploma in English Language and Literature
-**Aquinas College of Higher Studies**  
+Aquinas College of Higher Studies
 2019 – 2020  
 - Certificate Level I, II & III.  
 
 ### G.C.E. Advanced Level Examination
-**St. Aloysius’ College**  
+St. Aloysius’ College
 2016 – 2019  
-- **AAA (2019 A/L)** - Ranked **15th** in the **Physical Science Stream**.
+- AAA (2019 A/L) - Ranked 15th in the Physical Science Stream.
 
 ## 👨🏻‍🔬 Professional Experience
 - **Research Intern at Singapore University of Technology and Design (SUTD) – Digital Manufacturing and Design Centre (DManD)** – Research in **4D printing, additive manufacturing, and robotics**.
