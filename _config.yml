@@ -223,7 +223,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  certification:
+  certifications:
     output: true
     permalink: /:collection/:path/
 
