@@ -50,9 +50,31 @@ St. Aloysius’ College
 
 
 ## 👨🏻‍🔬 Professional Experience
-- **Research Intern at Singapore University of Technology and Design (SUTD) – Digital Manufacturing and Design Centre (DManD)** – Research in **4D printing, additive manufacturing, and robotics**.
-- **Finalist, Sri Lanka Robotics Challenge (SLRC)** – Competed in Sri Lanka’s largest robotics challenge.
-- **EXMO 2023 – University of Moratuwa** – Explained **analog lab components** to students at the flagship engineering exhibition.
+
+### **Visiting Instructor**  
+**University of Moratuwa**  
+*Robotic Design and Competition Module*  
+**Jul 2024 – Dec 2024**  
+Mentored students in robotics design and competition strategies, providing hands-on guidance in robotic system development.
+
+### **Research Intern**  
+**Singapore University of Technology and Design (SUTD) – Digital Manufacturing and Design Centre (DManD)**  
+**(Dates TBD)**  
+Conducted research in **4D printing, additive manufacturing, and robotics**, contributing to innovative advancements in digital manufacturing.
+
+## 🎨 Other Experience  
+
+### **UI Designer**  
+**Freelancer.com**  
+**Jan 2021 – Aug 2021**  
+Worked as a freelance UI designer, creating user interfaces and experiences for various clients.
+
+### **UI Designer**  
+**Desawana Music (Pvt) Ltd**  
+**Aug 2021 – Sep 2022**  
+Designed and developed the **Desawana Music** website, ensuring a seamless and engaging user experience.
+
+
 
 ## 📚 Teaching & Community Contributions
 - **University Workshops** – Conducted sessions on **PCB design, microcontroller programming, and ROS2 for robotics**.
