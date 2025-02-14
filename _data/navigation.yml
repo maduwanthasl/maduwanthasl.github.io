@@ -9,7 +9,7 @@ main:
     url: /projects/
 
   - title: "Certifications"
-    url: /_certifications/    
+    url: /certifications/    
 
   - title: "Teaching"
     url: /teaching/    
