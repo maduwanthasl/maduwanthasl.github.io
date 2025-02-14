@@ -1,94 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certifications</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
-        }
-        h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-        }
-        .certification {
-            margin-bottom: 20px;
-        }
-        .title {
-            font-weight: bold;
-        }
-        .date {
-            font-style: italic;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
+---
+layout: archive
+title: "Certifications"
+permalink: /certification/
+author_profile: true
+---
 
-    <h2>Certifications</h2>
+{% if site.talkmap_link == true %}
 
-    <div class="certification">
-        <p class="title">DeepLearning.AI - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization</p>
-        <p>Credential ID: Z3RHJCFK57U5</p>
-        <p class="date">Jul 2024</p>
-    </div>
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
-    <div class="certification">
-        <p class="title">DeepLearning.AI - Structuring Machine Learning Projects</p>
-        <p>Credential ID: H8S5CTEAJPBNC</p>
-        <p class="date">Jul 2024</p>
-    </div>
+{% endif %}
 
-    <div class="certification">
-        <p class="title">IBM - Introduction to Computer Vision and Image Processing</p>
-        <p>Credential ID: MEYWWVZKM9RY</p>
-        <p class="date">Jul 2024</p>
-    </div>
-
-    <div class="certification">
-        <p class="title">IBM - Machine Learning with Python</p>
-        <p>Credential ID: H26SWLQ3PWRX</p>
-        <p class="date">Jul 2024</p>
-    </div>
-
-    <div class="certification">
-        <p class="title">DeepLearning.AI - Neural Networks and Deep Learning</p>
-        <p>Credential ID: CPU5DZJ8HE4T</p>
-        <p class="date">Apr 2024</p>
-    </div>
-
-    <div class="certification">
-        <p class="title">DeepLearning.AI - Advanced Learning Algorithms</p>
-        <p>Credential ID: NXGYFRLPY9RD</p>
-        <p class="date">Sep 2023</p>
-    </div>
-
-    <div class="certification">
-        <p class="title">The Johns Hopkins University - Beginning Custom Projects with Raspberry Pi</p>
-        <p>Credential ID: 2VCBWVU6GBLN</p>
-        <p class="date">Sep 2023</p>
-    </div>
-
-    <div class="certification">
-        <p class="title">DeepLearning.AI - Machine Learning: Unsupervised Learning, Recommenders, Reinforcement Learning</p>
-        <p>Credential ID: WQVDF9QKZ9FP</p>
-        <p class="date">Sep 2023</p>
-    </div>
-
-    <div class="certification">
-        <p class="title">DeepLearning.AI - Supervised Machine Learning: Regression and Classification</p>
-        <p>Credential ID: DBCKRGUZYNPT</p>
-        <p class="date">Sep 2023</p>
-    </div>
-
-    <div class="certification">
-        <p class="title">University of Moratuwa - Python for Beginners</p>
-        <p>Credential ID: mnaYBe8aQX</p>
-        <p class="date">May 2022</p>
-    </div>
-
-</body>
-</html>
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
