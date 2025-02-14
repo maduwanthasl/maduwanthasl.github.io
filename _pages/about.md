@@ -16,22 +16,6 @@ I have experience with parametric design tools like Rhino and Grasshopper, as we
 
 By collaborating with leading researchers and innovators, I strive to deepen my understanding and drive groundbreaking advancements in the field. For me, **geometry is more than a mathematical discipline**—it is a **universal language** that connects ideas across domains, enabling us to design, optimize, and create in ways that were once unimaginable.
 
-## 📚 Key Projects
-
-### 🏆 Bin Picking Robot
-- Developed a vision-based robotic system for bin picking.
-- Designed two PCB versions: Version 1 using **ATmega2560** and Version 2 using **ATmega328P**.
-- Programmed using **Microchip Studio** and integrated the **u8g2 library** for OLED display.
-- [GitHub Repository](https://github.com/mora-bprs/Bin-picking-source-code/tree/main)
-
-### 🤖 ROS2 Robot Arm Simulation
-- Built a **ROS2 simulation** model for a robotic arm.
-- Integrated **kinematics, trajectory planning, and control algorithms**.
-
-### 🚀 RefreshMate – Automated Air Renewal System
-- Designed a smart air freshener system using **ATTiny85, ESP8266, and HC-05 Bluetooth module**.
-- Created PCBs in **Altium Designer** and modeled the enclosure in **SolidWorks**.
-
 ## 🎓 Education
 
 ### Research Intern, Digital Manufacturing and Design Centre (DManD)
