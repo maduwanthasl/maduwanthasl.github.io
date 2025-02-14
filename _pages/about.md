@@ -42,10 +42,10 @@ St. Aloysius’ College
 
 ## Awards and Recognitions
 
-- **IEEE Challenge Sphere - Chips Challenge**  | **Jun 2024**
+- **IEEE Challenge Sphere - Chips Challenge**  | Jun 2024 
   *Awarded 2nd place in this prestigious IEEE competition.*  
 
-- **Sri Lanka Robotics Challenge (SLRC) 2024**  | **Mar 2024**
+- **Sri Lanka Robotics Challenge (SLRC) 2024**  | Mar 2024
   *Selected as a finalist in the largest robotics competition in Sri Lanka.*  
 
 
