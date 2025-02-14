@@ -16,6 +16,8 @@ I have experience with parametric design tools like Rhino and Grasshopper, as we
 
 By collaborating with leading researchers and innovators, I strive to deepen my understanding and drive groundbreaking advancements in the field. For me, **geometry is more than a mathematical discipline**—it is a **universal language** that connects ideas across domains, enabling us to design, optimize, and create in ways that were once unimaginable.
 
+---
+
 ## 🎓 Education
 
 ### Research Intern, Digital Manufacturing and Design Centre (DManD)
@@ -54,12 +56,12 @@ St. Aloysius’ College
 ### **Visiting Instructor**  
 *University of Moratuwa*  
 **Jul 2024 – Dec 2024**  
-Mentored students in robotics design and competition strategies, providing hands-on guidance in robotic system development.  
+- Mentored students in robotics design and competition strategies, providing hands-on guidance in robotic system development.  
 
 ### **Research Intern**  
 *Singapore University of Technology and Design (SUTD) – Digital Manufacturing and Design Centre (DManD)*  
 **Dec 2024 – Jun 2025**  
-Conducted research in **4D printing, additive manufacturing, and robotics**, contributing to innovative advancements in digital manufacturing.  
+- Conducted research in **4D printing, additive manufacturing, and robotics**, contributing to innovative advancements in digital manufacturing.  
 
 ---
 
@@ -68,14 +70,12 @@ Conducted research in **4D printing, additive manufacturing, and robotics**, con
 ### **UI Designer**  
 *Freelancer.com*  
 **Jan 2020 – Dec 2022**  
-Worked as a freelance UI designer, creating user interfaces and experiences for various clients.  
+- Worked as a freelance UI designer, creating user interfaces and experiences for various clients.  
 
 ### **UI Designer**  
 *Desawana Music (Pvt) Ltd*  
 **Aug 2021 – Sep 2022**  
-Worked on-site as a UI Designer, focusing on the Desawana Music website.  
- the **Desawana Music** website, ensuring a seamless and engaging **user experience**.  
-
+- Worked on-site as a UI Designer, focusing on the Desawana Music website. 
 
 
 ## 📚 Teaching & Community Contributions
