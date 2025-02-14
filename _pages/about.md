@@ -39,6 +39,18 @@ St. Aloysius’ College
 2016 – 2019  
 - AAA (2019 A/L) - Ranked 15th in the Physical Science Stream.
 
+
+## Awards and Recognitions
+
+- **IEEE Challenge Sphere - Chips Challenge**  
+  *Awarded 2nd place in this prestigious IEEE competition.*  
+
+- **Sri Lanka Robotics Challenge (SLRC) 2024**  
+  *Selected as a finalist in the largest robotics competition in Sri Lanka.*  
+
+  **Jun 2024** | **Mar 2024**
+
+
 ## 👨🏻‍🔬 Professional Experience
 - **Research Intern at Singapore University of Technology and Design (SUTD) – Digital Manufacturing and Design Centre (DManD)** – Research in **4D printing, additive manufacturing, and robotics**.
 - **Finalist, Sri Lanka Robotics Challenge (SLRC)** – Competed in Sri Lanka’s largest robotics challenge.
