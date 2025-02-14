@@ -1,6 +1,7 @@
 ---
 title: "Raspberry-pi Media Center"
 date: 2024-07-11
+permalink: /projects/Raspberry-pi Media Center
 excerpt: "This project sets up a media center on a Raspberry Pi using LibreELEC. The media center supports various functionalities including PVR TV, gaming, local media playback, and more. This setup can transform your old TV into a smart TV with access to global TV channels (more than 10,000 channels), YouTube, gaming, weather overview, new movies, songs, and everything you need for an enhanced media experience. <br/>
 <img src='/images/TV.jpg'><br/>
 🔗 <a href='https://github.com/maduwanthasl/Raspberry-pi-Media-Center' target='_blank'>GitHub Repository</a>"
@@ -210,7 +211,3 @@ Using the methods outlined above, you can turn your old TV into a smart TV with 
 
 ## Contributing
 Contributions are welcome! Please fork this repository and submit pull requests.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
