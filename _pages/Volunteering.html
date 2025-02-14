@@ -12,37 +12,60 @@ author_profile: true
     <title>Volunteering</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 40px;
-            line-height: 1.6;
-            background-color: #f8f9fa;
+            background-color: #f5f7fa;
+            color: #333;
         }
         h2 {
             color: #307B8C;
-            border-bottom: 2px solid #307B8C;
+            text-transform: uppercase;
+            font-size: 24px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            border-bottom: 3px solid #307B8C;
+            display: inline-block;
             padding-bottom: 5px;
         }
-        .volunteer {
-            margin-bottom: 20px;
-            padding: 15px;
-            background: white;
+        .volunteer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .volunteer-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
             border-left: 5px solid #307B8C;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
+        }
+        .volunteer-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
         .title {
+            font-size: 18px;
             font-weight: bold;
-            font-size: 16px;
+            color: #307B8C;
         }
         .date {
             font-style: italic;
-            color: #555;
-            float: right;
+            font-size: 14px;
+            color: #777;
         }
         .organization {
             font-weight: bold;
-            color: #333;
-            font-style: italic;
+            font-size: 14px;
+            color: #444;
+            margin-top: 5px;
+        }
+        p {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -50,46 +73,55 @@ author_profile: true
 
     <h2>Volunteering</h2>
 
-    <div class="volunteer">
-        <p class="title">Workshop Coordinator <span class="date">Sep 2024 - Present</span></p>
-        <p class="organization">Electronic Club UOM</p>
-        <p>Newly selected as the SLRC branch Workshop Coordinator. Responsible for handling all school and other workshops.</p>
-    </div>
+    <div class="volunteer-container">
+        <div class="volunteer-card">
+            <p class="title">Workshop Coordinator</p>
+            <p class="date">Sep 2024 - Present</p>
+            <p class="organization">Electronic Club UOM</p>
+            <p>Managing and coordinating workshops, ensuring smooth event execution and participant engagement.</p>
+        </div>
 
-    <div class="volunteer">
-        <p class="title">Web Designer <span class="date">Oct 2023 - Aug 2024</span></p>
-        <p class="organization">Electronic Club UOM</p>
-        <p>Maintained and updated the ENTC website, improving usability, updating content, and enhancing site functionality.</p>
-    </div>
+        <div class="volunteer-card">
+            <p class="title">Web Designer</p>
+            <p class="date">Oct 2023 - Aug 2024</p>
+            <p class="organization">Electronic Club UOM</p>
+            <p>Enhanced ENTC’s website by improving design, usability, and content structure for a better user experience.</p>
+        </div>
 
-    <div class="volunteer">
-        <p class="title">Event Handling Volunteer, Sri Lankan Robotics Challenge <span class="date">Apr 2023 - Present</span></p>
-        <p class="organization">Electronic Club UOM</p>
-        <p>Managed event logistics, built competition arenas, and ensured smooth operation for participants at SLRC 2023.</p>
-    </div>
+        <div class="volunteer-card">
+            <p class="title">Event Handling Volunteer, SLRC</p>
+            <p class="date">Apr 2023 - Present</p>
+            <p class="organization">Electronic Club UOM</p>
+            <p>Managed logistics, assisted in competition setup, and provided on-site support for the Sri Lankan Robotics Challenge.</p>
+        </div>
 
-    <div class="volunteer">
-        <p class="title">Volunteer Explainer - Analog Lab Components <span class="date">Jul 2023 - Jul 2024</span></p>
-        <p class="organization">University of Moratuwa</p>
-        <p>Engaged in EXMO 2023, explaining analog lab components to students and enhancing their understanding of engineering concepts.</p>
-    </div>
+        <div class="volunteer-card">
+            <p class="title">Volunteer Explainer - Analog Lab</p>
+            <p class="date">Jul 2023 - Jul 2024</p>
+            <p class="organization">University of Moratuwa</p>
+            <p>Guided students at EXMO 2023, explaining analog lab components to enhance their engineering knowledge.</p>
+        </div>
 
-    <div class="volunteer">
-        <p class="title">Web Designer and Video Editor <span class="date">May 2021 - Jul 2021</span></p>
-        <p class="organization">MoraSpirit</p>
-        <p>Designed and improved MoraSpirit’s digital presence through web design and video editing to promote university sports events.</p>
-    </div>
+        <div class="volunteer-card">
+            <p class="title">Web Designer & Video Editor</p>
+            <p class="date">May 2021 - Jul 2021</p>
+            <p class="organization">MoraSpirit</p>
+            <p>Designed a user-friendly website and created engaging video content to promote university sports events.</p>
+        </div>
 
-    <div class="volunteer">
-        <p class="title">Graphic Designer <span class="date">Mar 2023 - May 2023</span></p>
-        <p class="organization">IEEE Student Branch University of Moratuwa</p>
-        <p>Created promotional materials for OCTWAVE 2023, ensuring clear communication of event details through visually appealing designs.</p>
-    </div>
+        <div class="volunteer-card">
+            <p class="title">Graphic Designer</p>
+            <p class="date">Mar 2023 - May 2023</p>
+            <p class="organization">IEEE Student Branch UOM</p>
+            <p>Designed digital content for OCTWAVE 2023, ensuring clear communication and brand consistency.</p>
+        </div>
 
-    <div class="volunteer">
-        <p class="title">Physics and Combined Maths Teacher <span class="date">Jan 2021 - Aug 2021</span></p>
-        <p class="organization">St. Aloysius College</p>
-        <p>Provided tutoring for physics and mathematics, helping students improve their understanding and problem-solving skills.</p>
+        <div class="volunteer-card">
+            <p class="title">Physics & Maths Teacher</p>
+            <p class="date">Jan 2021 - Aug 2021</p>
+            <p class="organization">St. Aloysius College</p>
+            <p>Provided tutoring in physics and mathematics, helping students improve problem-solving skills.</p>
+        </div>
     </div>
 
 </body>
