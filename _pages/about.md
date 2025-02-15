@@ -5,6 +5,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,16 +33,19 @@ redirect_from:
             display: flex;
             align-items: center;
             gap: 20px;
-            flex-wrap: wrap;
         }
-        .header img {
-            max-width: 150px;
+        .image-container {
+            flex: 40%;
+            display: flex;
+            justify-content: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
             border-radius: 8px;
-            flex-shrink: 0;
         }
         .text-content {
-            flex: 1;
-            min-width: 250px;
+            flex: 60%;
         }
         h1 {
             color: #222;
@@ -78,9 +82,11 @@ redirect_from:
                 flex-direction: column;
                 text-align: center;
             }
-            .header img {
-                max-width: 100%;
-                height: auto;
+            .image-container {
+                flex: 100%;
+            }
+            .text-content {
+                flex: 100%;
             }
         }
     </style>
@@ -89,7 +95,9 @@ redirect_from:
 
     <div class="container">
         <div class="header">
-            <img src="/images/Header_image.jpg" alt="Header_image">
+            <div class="image-container">
+                <img src="/mnt/data/image.png" alt="Profile Image">
+            </div>
             <div class="text-content">
                 <h1>👋🏼 Hello there, I’m Hirusha Madhuwantha!</h1>
                 <p>
