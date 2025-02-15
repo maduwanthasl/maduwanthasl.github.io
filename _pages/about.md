@@ -89,7 +89,7 @@ redirect_from:
 
     <div class="container">
         <div class="header">
-            <img src="/mnt/data/image.png" alt="Profile Image">
+            <img src="/images/Header_image.jpg" alt="Header_image">
             <div class="text-content">
                 <h1>👋🏼 Hello there, I’m Hirusha Madhuwantha!</h1>
                 <p>
