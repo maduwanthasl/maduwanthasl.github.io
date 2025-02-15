@@ -7,7 +7,6 @@ redirect_from:
 ---
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +22,7 @@ redirect_from:
             color: #333;
             line-height: 1.6;
         }
+
         .container {
             max-width: 900px;
             margin: 40px auto;
@@ -31,62 +31,78 @@ redirect_from:
             border-radius: 8px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
+
         .header {
             display: flex;
             align-items: center;
             gap: 20px;
         }
+
         .image-container {
             flex: 40%;
             display: flex;
             justify-content: center;
         }
+
         .image-container img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
         }
+
         .text-content {
             flex: 60%;
+            width: 100%;
         }
+
         h1 {
             color: #222;
             font-size: 1.8em;
         }
+
         a {
             color: #0077cc;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         .section {
             margin-top: 30px;
         }
+
         .section h2 {
             border-bottom: 2px solid #0077cc;
             padding-bottom: 5px;
         }
+
         ul {
             list-style: none;
             padding: 0;
         }
+
         ul li {
             padding: 5px 0;
         }
+
         .footer {
             text-align: center;
             margin-top: 20px;
             font-size: 14px;
         }
+
         @media (max-width: 600px) {
             .header {
                 flex-direction: column;
                 text-align: center;
             }
+
             .image-container {
                 flex: 100%;
             }
+
             .text-content {
                 flex: 100%;
             }
@@ -94,25 +110,15 @@ redirect_from:
     </style>
 </head>
 <body>
-
     <div class="container">
         <div class="header">
             <div class="image-container">
-                <img src="/images/Header_image.jpg" alt="Header image">
+                <img src="/mnt/data/image.png" alt="Profile Image">
             </div>
             <div class="text-content">
                 <h1>👋🏼 Hello there, I’m Hirusha Madhuwantha!</h1>
-                <p>
-                    I’m passionate about how **geometry processing** can transform AI, robotics, additive manufacturing, and 4D printing.  
-                    As a Research Intern at the **Digital Manufacturing and Design Centre (DManD) at <a href='https://www.sutd.edu.sg/' target='_blank'>Singapore University of Technology and Design</a>**,  
-                    I work at the intersection of **4D printing, machine learning, additive manufacturing, and robotics**,  
-                    exploring how **geometric principles** can help design adaptive structures and improve fabrication processes.
-                </p>
-                <p>
-                    I have experience with parametric design tools like **Rhino and Grasshopper**, as well as **FullControl GCode and ROS2**,  
-                    which I use to develop smarter, more efficient designs. I’m excited about how **4D printing and adaptive geometries**  
-                    can push the boundaries of industries like **healthcare and aerospace**.
-                </p>
+                <p>I’m passionate about how geometry processing can transform AI, robotics, additive manufacturing, and 4D printing. As a Research Intern at the <a href='https://www.sutd.edu.sg/' target='_blank'>Singapore University of Technology and Design</a>, I work at the intersection of 4D printing, machine learning, additive manufacturing, and robotics, exploring how geometric principles can help design adaptive structures and improve fabrication processes.</p>
+                <p>I have experience with parametric design tools like Rhino and Grasshopper, as well as FullControl GCode and ROS2, which I use to develop smarter, more efficient designs. I’m excited about how 4D printing and adaptive geometries can push the boundaries of industries like healthcare and aerospace.</p>
             </div>
         </div>
 
@@ -129,8 +135,8 @@ redirect_from:
         <div class="section">
             <h2>🏆 Awards and Recognitions</h2>
             <ul>
-                <li>🥈 **IEEE Challenge Sphere - Chips Challenge** | Jun 2024 – *2nd place in this IEEE competition.*</li>
-                <li>🤖 **Sri Lanka Robotics Challenge (SLRC) 2024** | Mar 2024 – *Finalist in the largest robotics competition in Sri Lanka.*</li>
+                <li>🥈 IEEE Challenge Sphere - Chips Challenge | Jun 2024 – 2nd place in this IEEE competition.</li>
+                <li>🤖 Sri Lanka Robotics Challenge (SLRC) 2024 | Mar 2024 – Finalist in the largest robotics competition in Sri Lanka.</li>
             </ul>
         </div>
 
@@ -153,17 +159,15 @@ redirect_from:
         <div class="section">
             <h2>📚 Teaching & Community Contributions</h2>
             <ul>
-                <li>🎓 **University Workshops** – Conducted sessions on **PCB design, microcontroller programming, and ROS2 for robotics**.</li>
-                <li>💻 **GitHub Contributions** – Open-source projects on **robotics and embedded systems**.</li>
-                <li>📢 **Published projects and research** on **GitHub and LinkedIn**.</li>
+                <li>🎓 University Workshops – Conducted sessions on PCB design, microcontroller programming, and ROS2 for robotics.</li>
+                <li>💻 GitHub Contributions – Open-source projects on robotics and embedded systems.</li>
+                <li>📢 Published projects and research on GitHub and LinkedIn.</li>
             </ul>
         </div>
 
         <div class="footer">
-            📧 Email: <a href="mailto:hirushamaduwantha0@gmail.com">hirushamaduwantha0@gmail.com</a>
+            <p>© 2025 Hirusha Madhuwantha. All rights reserved.</p>
         </div>
     </div>
-
 </body>
 </html>
-
