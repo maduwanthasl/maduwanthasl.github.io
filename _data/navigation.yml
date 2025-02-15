@@ -14,8 +14,8 @@ main:
   - title: "Volunteering"
     url: /volunteering/    
     
- # - title: "Portfolio"
-  #  url: /portfolio/
+  - title: "Experience"
+    url: /experience/
         
   #- title: "Blog Posts"
    # url: /year-archive/

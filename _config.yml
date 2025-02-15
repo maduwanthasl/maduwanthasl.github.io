@@ -217,7 +217,7 @@ collections:
   volunteering:
     output: true
     permalink: /:collection/:path/
-  publications:
+  experience:
     output: true
     permalink: /:collection/:path/
   projects:
