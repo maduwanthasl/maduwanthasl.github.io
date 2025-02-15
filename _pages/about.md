@@ -1,12 +1,10 @@
 ---
 permalink: /
-title: 
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,8 +28,24 @@ redirect_from:
             border-radius: 8px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3 {
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .header img {
+            max-width: 150px;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+        .text-content {
+            flex: 1;
+            min-width: 250px;
+        }
+        h1 {
             color: #222;
+            font-size: 1.8em;
         }
         a {
             color: #0077cc;
@@ -39,15 +53,6 @@ redirect_from:
         }
         a:hover {
             text-decoration: underline;
-        }
-        .header {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-        .header img {
-            max-width: 150px;
-            border-radius: 8px;
         }
         .section {
             margin-top: 30px;
@@ -68,19 +73,29 @@ redirect_from:
             margin-top: 20px;
             font-size: 14px;
         }
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .header img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
         <div class="header">
-            <img src="/images/Header_image.jpg" alt="Profile Image">
-            <div>
+            <img src="/mnt/data/image.png" alt="Profile Image">
+            <div class="text-content">
                 <h1>👋🏼 Hello there, I’m Hirusha Madhuwantha!</h1>
                 <p>
-                    I’m passionate about how geometry processing can transform AI, robotics, additive manufacturing, and 4D printing. As a Research Intern at the Digital Manufacturing and Design Centre (DManD) at <a href='https://www.sutd.edu.sg/' target='_blank'>Singapore University of Technology and Design</a>, I’m working at the intersection of 4D printing, machine learning, additive manufacturing and robotics, exploring how geometric principles can help design adaptive structures and improve fabrication processes.
-                    I have experience with parametric design tools like Rhino and Grasshopper, as well as FullControl GCode and ROS2, which I use to develop smarter, more efficient designs. I’m especially excited about how 4D printing and adaptive geometries can push the boundaries of industries like healthcare and aerospace.
-                    By collaborating with leading researchers and innovators, I strive to deepen my understanding and drive groundbreaking advancements in the field. For me, geometry is more than a mathematical discipline—it is a universal language that connects ideas across domains, enabling us to design, optimize, and create in ways that were once unimaginable.
+                    I’m passionate about how geometry processing can transform AI, robotics, additive manufacturing, and 4D printing. 
+                    As a Research Intern at the <a href="https://www.sutd.edu.sg/" target="_blank">Singapore University of Technology and Design</a>, 
+                    I explore how geometric principles can help design adaptive structures and improve fabrication processes.
                 </p>
             </div>
         </div>
@@ -90,32 +105,6 @@ redirect_from:
             <ul>
                 <li><strong>Research Intern, DManD (SUTD)</strong> | 12/2024 – 06/2025</li>
                 <li><strong>B.Sc. Electronic and Telecommunication Engineering</strong>, University of Moratuwa | 08/2022 – 05/2026</li>
-                <li><strong>Diploma in English Language and Literature</strong>, Aquinas College | 2019 – 2020</li>
-                <li><strong>G.C.E. A/L Examination</strong>, St. Aloysius’ College | 2016 – 2019</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>🏆 Awards & Recognitions</h2>
-            <ul>
-                <li><strong>IEEE Challenge Sphere - Chips Challenge</strong> | 2nd Place (Jun 2024)</li>
-                <li><strong>Sri Lanka Robotics Challenge (SLRC) 2024</strong> | Finalist (Mar 2024)</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>👨🏻‍🔬 Professional Experience</h2>
-            <ul>
-                <li><strong>Visiting Instructor</strong>, University of Moratuwa | Jul 2024 – Dec 2024</li>
-                <li><strong>Research Intern</strong>, SUTD – DManD | Dec 2024 – Jun 2025</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>📚 Teaching & Community Contributions</h2>
-            <ul>
-                <li>University Workshops on **PCB design, microcontrollers, ROS2 for robotics**</li>
-                <li>GitHub Open-source projects on **robotics and embedded systems**</li>
             </ul>
         </div>
 
