@@ -6,6 +6,8 @@ redirect_from:
   - /about.html
 ---
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,14 +98,20 @@ redirect_from:
     <div class="container">
         <div class="header">
             <div class="image-container">
-                <img src="/images/Header_image.jpg" alt="Header_image">
+                <img src="/mnt/data/image.png" alt="Profile Image">
             </div>
             <div class="text-content">
                 <h1>👋🏼 Hello there, I’m Hirusha Madhuwantha!</h1>
                 <p>
-                    I’m passionate about how geometry processing can transform AI, robotics, additive manufacturing, and 4D printing. 
-                    As a Research Intern at the <a href="https://www.sutd.edu.sg/" target="_blank">Singapore University of Technology and Design</a>, 
-                    I explore how geometric principles can help design adaptive structures and improve fabrication processes.
+                    I’m passionate about how **geometry processing** can transform AI, robotics, additive manufacturing, and 4D printing.  
+                    As a Research Intern at the **Digital Manufacturing and Design Centre (DManD) at <a href='https://www.sutd.edu.sg/' target='_blank'>Singapore University of Technology and Design</a>**,  
+                    I work at the intersection of **4D printing, machine learning, additive manufacturing, and robotics**,  
+                    exploring how **geometric principles** can help design adaptive structures and improve fabrication processes.
+                </p>
+                <p>
+                    I have experience with parametric design tools like **Rhino and Grasshopper**, as well as **FullControl GCode and ROS2**,  
+                    which I use to develop smarter, more efficient designs. I’m excited about how **4D printing and adaptive geometries**  
+                    can push the boundaries of industries like **healthcare and aerospace**.
                 </p>
             </div>
         </div>
@@ -111,8 +119,43 @@ redirect_from:
         <div class="section">
             <h2>🎓 Education</h2>
             <ul>
-                <li><strong>Research Intern, DManD (SUTD)</strong> | 12/2024 – 06/2025</li>
-                <li><strong>B.Sc. Electronic and Telecommunication Engineering</strong>, University of Moratuwa | 08/2022 – 05/2026</li>
+                <li><strong>Research Intern, Digital Manufacturing and Design Centre (DManD)</strong> | Singapore University of Technology and Design (SUTD) (12/2024 – 06/2025)</li>
+                <li><strong>B.Sc. Electronic and Telecommunication Engineering</strong> | University of Moratuwa (08/2022 – 05/2026)</li>
+                <li><strong>Diploma in English Language and Literature</strong> | Aquinas College of Higher Studies (2019 – 2020)</li>
+                <li><strong>G.C.E. Advanced Level</strong> | St. Aloysius’ College (2016 – 2019) – AAA (Ranked 15th in Physical Science Stream)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🏆 Awards and Recognitions</h2>
+            <ul>
+                <li>🥈 **IEEE Challenge Sphere - Chips Challenge** | Jun 2024 – *2nd place in this IEEE competition.*</li>
+                <li>🤖 **Sri Lanka Robotics Challenge (SLRC) 2024** | Mar 2024 – *Finalist in the largest robotics competition in Sri Lanka.*</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>👨🏻‍🔬 Professional Experience</h2>
+            <ul>
+                <li><strong>Visiting Instructor</strong> | University of Moratuwa (Jul 2024 – Dec 2024)</li>
+                <li><strong>Research Intern</strong> | SUTD – Digital Manufacturing and Design Centre (DManD) (Dec 2024 – Jun 2025)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🎨 Other Experience</h2>
+            <ul>
+                <li><strong>UI Designer</strong> | Freelancer.com (Jan 2020 – Dec 2022)</li>
+                <li><strong>UI Designer</strong> | Desawana Music (Pvt) Ltd (Aug 2021 – Sep 2022)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📚 Teaching & Community Contributions</h2>
+            <ul>
+                <li>🎓 **University Workshops** – Conducted sessions on **PCB design, microcontroller programming, and ROS2 for robotics**.</li>
+                <li>💻 **GitHub Contributions** – Open-source projects on **robotics and embedded systems**.</li>
+                <li>📢 **Published projects and research** on **GitHub and LinkedIn**.</li>
             </ul>
         </div>
 
@@ -123,3 +166,4 @@ redirect_from:
 
 </body>
 </html>
+
