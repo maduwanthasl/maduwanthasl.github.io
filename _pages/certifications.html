@@ -4,7 +4,6 @@ permalink: /certifications/
 author_profile: true
 ---
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,14 +24,6 @@ author_profile: true
             padding-bottom: 5px;
             font-size: 24px;
         }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
         .container {
             max-width: 900px;
             margin: 40px auto;
@@ -42,12 +33,19 @@ author_profile: true
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
         .certification {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             margin-bottom: 15px;
             padding: 15px;
             background: white;
             border-left: 4px solid #307B8C;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
+        }
+        .certification-content {
+            flex: 1;
+            margin-right: 20px;
         }
         .title {
             font-size: 16px;
@@ -64,77 +62,115 @@ author_profile: true
             font-style: italic;
         }
         .certificate-image {
-            width: 100%;
+            width: 150px;
+            height: auto;
             border-radius: 8px;
-            margin-top: 20px;
-            margin-bottom: 20px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 600px) {
+            .certification {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .certificate-image {
+                width: 100%;
+                margin-top: 10px;
+            }
         }
     </style>
 </head>
 <body>
 <div class="container">
     <h2>CERTIFICATIONS</h2>
-    <img src="/images/certificates.png" alt="Certificates Collage" class="certificate-image">
 
     <div class="certification">
-        <p class="title">DeepLearning.AI - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization</p>
-        <p class="date">Jul 2024</p>
-        <p class="credential">Credential ID: Z3RHJCFK57U5</p>
+        <div class="certification-content">
+            <p class="title">DeepLearning.AI - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization</p>
+            <p class="date">Jul 2024</p>
+            <p class="credential">Credential ID: Z3RHJCFK57U5</p>
+        </div>
+        <img src="/images/certificate1.png" alt="Certificate 1" class="certificate-image">
     </div>
 
     <div class="certification">
-        <p class="title">DeepLearning.AI - Structuring Machine Learning Projects</p>
-        <p class="date">Jul 2024</p>
-        <p class="credential">Credential ID: H8S5CTEAJPBNC</p>
+        <div class="certification-content">
+            <p class="title">DeepLearning.AI - Structuring Machine Learning Projects</p>
+            <p class="date">Jul 2024</p>
+            <p class="credential">Credential ID: H8S5CTEAJPBNC</p>
+        </div>
+        <img src="/images/certificate1.png" alt="Certificate 2" class="certificate-image">
     </div>
 
     <div class="certification">
-        <p class="title">IBM - Introduction to Computer Vision and Image Processing</p>
-        <p class="date">Jul 2024</p>
-        <p class="credential">Credential ID: MEYWWVZKM9RY</p>
+        <div class="certification-content">
+            <p class="title">IBM - Introduction to Computer Vision and Image Processing</p>
+            <p class="date">Jul 2024</p>
+            <p class="credential">Credential ID: MEYWWVZKM9RY</p>
+        </div>
+        <img src="/images/certificate1.png" alt="Certificate 3" class="certificate-image">
     </div>
 
     <div class="certification">
-        <p class="title">IBM - Machine Learning with Python</p>
-        <p class="date">Jul 2024</p>
-        <p class="credential">Credential ID: H26SWLQ3PWRX</p>
+        <div class="certification-content">
+            <p class="title">IBM - Machine Learning with Python</p>
+            <p class="date">Jul 2024</p>
+            <p class="credential">Credential ID: H26SWLQ3PWRX</p>
+        </div>
+        <img src="/images/certificate4.png" alt="Certificate 4" class="certificate-image">
     </div>
 
     <div class="certification">
-        <p class="title">DeepLearning.AI - Neural Networks and Deep Learning</p>
-        <p class="date">Apr 2024</p>
-        <p class="credential">Credential ID: CPU5DZJ8HE4T</p>
+        <div class="certification-content">
+            <p class="title">DeepLearning.AI - Neural Networks and Deep Learning</p>
+            <p class="date">Apr 2024</p>
+            <p class="credential">Credential ID: CPU5DZJ8HE4T</p>
+        </div>
+        <img src="/images/certificate5.png" alt="Certificate 5" class="certificate-image">
     </div>
 
     <div class="certification">
-        <p class="title">DeepLearning.AI - Advanced Learning Algorithms</p>
-        <p class="date">Sep 2023</p>
-        <p class="credential">Credential ID: NXGYFRLPY9RD</p>
+        <div class="certification-content">
+            <p class="title">DeepLearning.AI - Advanced Learning Algorithms</p>
+            <p class="date">Sep 2023</p>
+            <p class="credential">Credential ID: NXGYFRLPY9RD</p>
+        </div>
+        <img src="/images/certificate6.png" alt="Certificate 6" class="certificate-image">
     </div>
 
     <div class="certification">
-        <p class="title">The Johns Hopkins University - Beginning Custom Projects with Raspberry Pi</p>
-        <p class="date">Sep 2023</p>
-        <p class="credential">Credential ID: 2VCBWVU6GBLN</p>
+        <div class="certification-content">
+            <p class="title">The Johns Hopkins University - Beginning Custom Projects with Raspberry Pi</p>
+            <p class="date">Sep 2023</p>
+            <p class="credential">Credential ID: 2VCBWVU6GBLN</p>
+        </div>
+        <img src="/images/certificate1.png" alt="Certificate 7" class="certificate-image">
     </div>
 
     <div class="certification">
-        <p class="title">DeepLearning.AI - Machine Learning: Unsupervised Learning, Recommenders, Reinforcement Learning</p>
-        <p class="date">Sep 2023</p>
-        <p class="credential">Credential ID: WQVDF9QKZ9FP</p>
+        <div class="certification-content">
+            <p class="title">DeepLearning.AI - Machine Learning: Unsupervised Learning, Recommenders, Reinforcement Learning</p>
+            <p class="date">Sep 2023</p>
+            <p class="credential">Credential ID: WQVDF9QKZ9FP</p>
+        </div>
+        <img src="/images/certificate8.png" alt="Certificate 8" class="certificate-image">
     </div>
 
     <div class="certification">
-        <p class="title">DeepLearning.AI - Supervised Machine Learning: Regression and Classification</p>
-        <p class="date">Sep 2023</p>
-        <p class="credential">Credential ID: DBCKRGUZYNPT</p>
+        <div class="certification-content">
+            <p class="title">DeepLearning.AI - Supervised Machine Learning: Regression and Classification</p>
+            <p class="date">Sep 2023</p>
+            <p class="credential">Credential ID: DBCKRGUZYNPT</p>
+        </div>
+        <img src="/images/certificate9.png" alt="Certificate 9" class="certificate-image">
     </div>
 
     <div class="certification">
-        <p class="title">University of Moratuwa - Python for Beginners</p>
-        <p class="date">May 2022</p>
-        <p class="credential">Credential ID: mnaYBe8aQX</p>
+        <div class="certification-content">
+            <p class="title">University of Moratuwa - Python for Beginners</p>
+            <p class="date">May 2022</p>
+            <p class="credential">Credential ID: mnaYBe8aQX</p>
+        </div>
+        <img src="/images/certificate1.png" alt="Certificate 10" class="certificate-image">
     </div>
 </div>
 </body>
