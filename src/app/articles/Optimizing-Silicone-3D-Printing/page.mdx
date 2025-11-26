@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { ArticleLayout } from '@/components/ArticleLayout'
 import OptimizingSilicone3DPrintingParameters from './image4.webp'
 import PrintedSamples from './image5.webp'
@@ -14,7 +16,9 @@ export const metadata = {
   description: article.description,
 }
 
-export default (props) => <ArticleLayout article={article} {...props} />
+export default function Page() {
+  return <ArticleLayout article={article} />
+}
 
 ## Exploring the Impact of Printing Conditions on Silicone Cube Quality Using SLO-JO and Thivex Additives
 

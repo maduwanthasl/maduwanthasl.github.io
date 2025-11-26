@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { ArticleLayout } from '@/components/ArticleLayout'
 import VisualizingAccelerometerData from './image1.webp'
 import Witmotionuserinterface from './image2.webp'
@@ -14,7 +16,9 @@ export const metadata = {
   description: article.description,
 }
 
-export default (props) => <ArticleLayout article={article} {...props} />
+export default function Page() {
+  return <ArticleLayout article={article} />
+}
 
 ### Using Python for vibration analysis and optimizing 3D printing parameters in silicon printing.
 
