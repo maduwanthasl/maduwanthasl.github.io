@@ -1,0 +1,98 @@
+import { SimpleLayout } from '@/components/SimpleLayout'
+
+export const metadata = {
+  title: 'Certifications',
+  description: 'Selected certifications and credential IDs.',
+}
+
+export default function CertificationsPage() {
+  const certifications = [
+    {
+      id: 'Z3RHJCFK57U5',
+      org: 'DeepLearning.AI',
+      title:
+        'Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization',
+      date: 'Jul 2024',
+    },
+    {
+      id: 'H8S5CTEAJPBNC',
+      org: 'DeepLearning.AI',
+      title: 'Structuring Machine Learning Projects',
+      date: 'Jul 2024',
+    },
+    {
+      id: 'MEYWWVZKM9RY',
+      org: 'IBM',
+      title: 'Introduction to Computer Vision and Image Processing',
+      date: 'Jul 2024',
+    },
+    {
+      id: 'H26SWLQ3PWRX',
+      org: 'IBM',
+      title: 'Machine Learning with Python',
+      date: 'Jul 2024',
+    },
+    {
+      id: 'CPU5DZJ8HE4T',
+      org: 'DeepLearning.AI',
+      title: 'Neural Networks and Deep Learning',
+      date: 'Apr 2024',
+    },
+    {
+      id: 'NXGYFRLPY9RD',
+      org: 'DeepLearning.AI',
+      title: 'Advanced Learning Algorithms',
+      date: 'Sep 2023',
+    },
+    {
+      id: 'WQVDP9QKZ9FP',
+      org: 'DeepLearning.AI',
+      title:
+        'Machine Learning: Unsupervised Learning, Recommenders, Reinforcement Learning',
+      date: 'Sep 2023',
+    },
+    {
+      id: 'DBCKRGUZYNPT',
+      org: 'DeepLearning.AI',
+      title: 'Supervised Machine Learning: Regression and Classification',
+      date: 'Sep 2023',
+    },
+  ]
+
+  return (
+    <SimpleLayout
+      title="Certifications"
+      intro="A curated list of selected certifications I've completed, with credential IDs for verification."
+    >
+      <div className="mt-8">
+        <ol className="space-y-8">
+            {certifications.map((c, index) => (
+                <li key={c.id} className="flex flex-col">
+                
+                {/* Top Row: Number + Title + Date */}
+                <div className="flex justify-between gap-4">
+                    <div className="flex-1">
+                    <p className="text-base font-semibold text-zinc-900 dark:text-zinc-100">
+                        <span className="mr-2">{index + 1}.</span>
+                        <strong>{c.org}</strong> — {c.title}
+                    </p>
+                    </div>
+
+                    {/* Always align right */}
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400 whitespace-nowrap">
+                    {c.date}
+                    </p>
+                </div>
+
+                {/* Credential ID */}
+                <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400 pl-6">
+                    Credential ID: {c.id}
+                </p>
+                </li>
+            ))}
+            </ol>
+
+      </div>
+    </SimpleLayout>
+  )
+}
