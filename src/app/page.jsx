@@ -290,8 +290,8 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m a Robotics and AI Enthusiast from Sri Lanka. I love building intelligent
-            robots that blend computer vision, ROS2, and advanced 3D printing to solve 
-            real-world problems. I’m always exploring new ideas in digital manufacturing 
+            robots that blend computer vision, hardware, and advanced 3D designing to solve 
+            real-world problems. I’m always exploring new ideas in digital manufacturing, humanoids, shared autonomy,
             and soft robotics, and I’m excited to keep pushing what machines can do.
           </p>
           <div className="mt-6 flex gap-6">

@@ -34,7 +34,7 @@ function Article({ article }) {
 export const metadata = {
   title: 'Articles',
   description:
-    'All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order.',
+    'A collection of my notes, learnings, and ideas across robotics, perception, and digital fabrication.',
 }
 
 export default async function ArticlesIndex() {

@@ -63,16 +63,16 @@ export default function About() {
             <p>
               I'm Hirusha Maduwantha, a final-year Electronic & Telecommunication Engineering undergraduate at the 
               <span className="font-semibold text-blue-600 dark:text-blue-400"> University of Moratuwa</span>. I completed my research internship at the <span className="font-semibold text-blue-600 dark:text-blue-400">Digital Manufacturing and Design 
-              Centre (DManD) at SUTD</span>, where I worked on robotic 3D printing, soft robotics, and intelligent fabrication systems.
+              Centre (DManD) at SUTD</span>, where I worked on robotic 3D printing, soft robotics,smart materials, 4D printing, freeform toolpath generation and intelligent fabrication systems.
             </p>
             <p>
               I've also been actively involved at my university as a <span className="font-semibold text-blue-600 dark:text-blue-400">Teaching Assistant</span> for the EN2533 Robot Design and 
-              Competition module and S3-EN2091 - Laboratory Practice and Projects module, supporting labs and mentoring students. Recently, I also took on the role of <span className="font-semibold text-blue-600 dark:text-blue-400">Head of 
+              Competition module and EN2091 - Laboratory Practice and Projects module, supporting labs and mentoring students. Recently, I also took on the role of <span className="font-semibold text-blue-600 dark:text-blue-400">Head of 
               Education at the Electronic Club SLRC Branch</span>, where I help design workshops and guide students through robotics and 
               embedded systems projects.
             </p>
             <p>
-              My work mainly focuses on robotics, computer vision, ROS2, deep learning, shared autonomy (HRI) and advanced additive manufacturing.
+              My work mainly focuses on robotics, computer vision, autonomous systems, deep learning, shared autonomy (HRI) and advanced additive manufacturing.
                I love working on <span className="font-semibold text-blue-600 dark:text-blue-400">humanoids, legged robots, robot simulations, robotic arm printing, and trying out different additive manufacturing methods</span>.
             </p>
             <p>
