@@ -16,6 +16,8 @@ import REFRESHMATEIMG from '@/images/logos/refreshmate.png'
 import ANALOGLINEFOLLOWER from '@/images/logos/analoglinefollower.jpg'
 import BINPICKINGIMG from '@/images/logos/binpicking.png'
 import GOLEMIMG from '@/images/logos/golem.jpg'
+import UNICCASSIMG from '@/images/logos/uniccass.jpeg'
+import CMOSIMG from '@/images/logos/cmosdesign.png'
 
 const projects = [
 	{
@@ -69,6 +71,28 @@ const projects = [
 		},
 		logo: MYCOBOTING,
 		image: MYCOBOTING,
+	},
+	{
+		name: '8bit SAR ADC IEEE Unic-CASS 2024',
+		description:
+		 "Introduction: We propose to design a 100 KSPS 8-bit successive approximation register (SAR) ADC for low-power applications such as battery-powered or RF-powered internet-of-things (IoT) devices and wearable/implantable medical devices. Our main goal is to achieve 8-bit resolution while minimizing power and die area consumption. Walden figure-of-merit (FoM) will be utilized to quantify the performance of the ADC. The choice of the SAR ADC for the UNIC-CASS program will enable us to master both analog and digital design techniques while providing practical experience with relevant tools. Additionally, designing the SAR ADC layout will teach us crucial layout methods, such as common centroid and noise reduction techniques.",
+		link: {
+			href: 'https://github.com/maduwanthasl/8b-sar-adc-unic_cass',
+			label: 'Project Details',
+		},
+		logo: UNICCASSIMG,
+		image: UNICCASSIMG,
+	},
+	{
+		name: 'CMos Inverter sky130',
+		description:
+		"This is an open-source project on CMOS Inverter Design, Analysis and Layout in SKY130 PDK.",
+		link: {
+			href: 'https://github.com/maduwanthasl/cmos_inverter_sky130',
+			label: 'Project Details',
+		},
+		logo: CMOSIMG,
+		image: CMOSIMG,
 	},
 	{
 		name: 'Raspberry PI Media Center',
