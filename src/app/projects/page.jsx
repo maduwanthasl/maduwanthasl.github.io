@@ -18,6 +18,7 @@ import BINPICKINGIMG from '@/images/logos/binpicking.png'
 import GOLEMIMG from '@/images/logos/golem.jpg'
 import UNICCASSIMG from '@/images/logos/uniccass.jpeg'
 import CMOSIMG from '@/images/logos/cmosdesign.png'
+import BINPICKINGSOURCE from '@/images/logos/binpickingsource.png'
 
 const projects = [
 	{
@@ -192,6 +193,17 @@ const projects = [
 		},
 		logo: GOLEMIMG,
 		image: GOLEMIMG,
+	},
+	{
+		name: 'Bin Picking Robot Gripper Source Code',
+		description:
+      "This repository contains the source code for a bin-picking robot project, developed using Microchip Studio. The robot uses an ATmega328P microcontroller, an OLED display, a stepper motor for a gripper mechanism, and a UART interface for receiving coordinates. The project also utilizes the u8g2 library for driving the OLED display.",
+		link: {
+			href: 'https://github.com/maduwanthasl/Bin-picking-source-code',
+			label: 'Project Details',
+		},
+		logo: BINPICKINGSOURCE,
+		image: BINPICKINGSOURCE,
 	},
 ]
 
