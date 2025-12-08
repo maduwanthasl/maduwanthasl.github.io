@@ -19,8 +19,32 @@ import GOLEMIMG from '@/images/logos/golem.jpg'
 import UNICCASSIMG from '@/images/logos/uniccass.jpeg'
 import CMOSIMG from '@/images/logos/cmosdesign.png'
 import BINPICKINGSOURCE from '@/images/logos/binpickingsource.png'
+import LAMI from '@/images/logos/lami.jpg'
+import H1WBPC from '@/images/logos/h1wbpc.png'
 
 const projects = [
+	{
+		name: 'LAMI Paper Implementation',
+		description:
+			"Here I implemented the Large Language Models for Multi-Modal Human-Robot Interaction paper. I changed the API calling part from OpenAI to DeepSeek v3 model and tested it successfully.",
+		link: {
+			href: 'https://github.com/maduwanthasl/LAMI-paper-implementation',
+			label: 'Project Details',
+		},
+		logo: LAMI,
+		image: LAMI,
+	},
+	{
+		name: 'Unitree H1 Robot WBPC Control',
+		description:
+			"Here I implemented a Whole-Body Posture Controller (WBPC-lite). I solved inverse kinematics (IK) and understood task-space control & whole-body coordination. For this, I used KDL (Kinematics and Dynamics Library) through Python.",
+		link: {
+			href: 'https://github.com/maduwanthasl/humonoid_wbpc_control',
+			label: 'Project Details',
+		},
+		logo: H1WBPC,
+		image: H1WBPC,
+	},
 	{
 		name: 'Custom 5" Freestyle FPV Build',
 		description:
