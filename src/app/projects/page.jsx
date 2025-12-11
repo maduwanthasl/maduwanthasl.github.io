@@ -21,6 +21,7 @@ import CMOSIMG from '@/images/logos/cmosdesign.png'
 import BINPICKINGSOURCE from '@/images/logos/binpickingsource.png'
 import LAMI from '@/images/logos/lami.jpg'
 import H1WBPC from '@/images/logos/h1wbpc.png'
+import UR10_AI_IMG_DRAW from '@/images/logos/ur10_ai_img_draw.png'
 
 const projects = [
 	{
@@ -44,6 +45,17 @@ const projects = [
 		},
 		logo: H1WBPC,
 		image: H1WBPC,
+	},
+	{
+		name: 'UR10 Robotic Portrait Drawing',
+		description:
+			"This project demonstrates an end-to-end workflow for transforming an AI-generated portrait into a physical drawing created by a UR10 robotic arm. The pipeline combines Rhino, Grasshopper, Image Sampler, and a custom Python → URScript converter, enabling the robot to sketch halftone-style artwork based on brightness-mapped points.",
+		link: {
+			href: 'https://github.com/maduwanthasl/UR10-AI-Art-Drawing',
+			label: 'Project Details',
+		},
+		logo: UR10_AI_IMG_DRAW,
+		image: UR10_AI_IMG_DRAW,
 	},
 	{
 		name: 'Custom 5" Freestyle FPV Build',
