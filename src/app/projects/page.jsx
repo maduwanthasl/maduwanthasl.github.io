@@ -1,3 +1,6 @@
+'use client'
+
+import { useState } from 'react'
 import Image from 'next/image'
 
 import { Card } from '@/components/Card'
@@ -22,8 +25,47 @@ import BINPICKINGSOURCE from '@/images/logos/binpickingsource.png'
 import LAMI from '@/images/logos/lami.jpg'
 import H1WBPC from '@/images/logos/h1wbpc.png'
 import UR10_AI_IMG_DRAW from '@/images/logos/ur10_ai_img_draw.png'
+import EKFIMG from '@/images/logos/ekf.png'
+import SCARAFABIMG from '@/images/logos/scara_fab.png'
+
+const categories = [
+	'All',
+	'Robotics & Automation',
+	'Additive Manufacturing',
+	'IC & VLSI Design',
+	'Embedded Systems & IoT',
+	'AI & Machine Learning',
+	'Electronics & Hardware Design',
+	'Telecommunication & Networking',
+]
 
 const projects = [
+	{
+		name: 'ROS2 Extended Kalman Filter for Mobile Robot Localization',
+		description:
+			'A complete ROS2 implementation of an Extended Kalman Filter (EKF) for 2D mobile robot localization through GPS and IMU sensor fusion. This project demonstrates state estimation techniques with real-time visualization and comprehensive performance analysis tools.',
+		link: {
+			href: 'https://github.com/maduwanthasl/ros2-ekf-localization',
+			label: 'Project Details',
+		},
+		logo: EKFIMG,
+		image: EKFIMG,
+		mainCategory: 'Robotics & Automation',
+		subCategories: [],
+	},
+	{
+		name: 'SCARA Fabrication Station - ROS 2',
+		description:
+			'A complete ROS 2 simulation package for a 4-DOF SCARA (Selective Compliance Assembly Robot Arm) robotic arm based fabrication station with autonomous waypoint trajectory following and real-time path visualization.',
+		link: {
+			href: 'https://github.com/maduwanthasl/scara-fab-station-ros2',
+			label: 'Project Details',
+		},
+		logo: SCARAFABIMG,
+		image: SCARAFABIMG,
+		mainCategory: 'Robotics & Automation',
+		subCategories: ['Additive Manufacturing'],
+	},
 	{
 		name: 'LAMI Paper Implementation',
 		description:
@@ -34,6 +76,8 @@ const projects = [
 		},
 		logo: LAMI,
 		image: LAMI,
+		mainCategory: 'Robotics & Automation',
+		subCategories: ['AI & Machine Learning'],
 	},
 	{
 		name: 'Unitree H1 Robot WBPC Control',
@@ -45,6 +89,8 @@ const projects = [
 		},
 		logo: H1WBPC,
 		image: H1WBPC,
+		mainCategory: 'Robotics & Automation',
+		subCategories: [],
 	},
 	{
 		name: 'UR10 Robotic Portrait Drawing',
@@ -56,6 +102,8 @@ const projects = [
 		},
 		logo: UR10_AI_IMG_DRAW,
 		image: UR10_AI_IMG_DRAW,
+		mainCategory: 'Robotics & Automation',
+		subCategories: ['AI & Machine Learning', 'Additive Manufacturing'],
 	},
 	{
 		name: 'Custom 5" Freestyle FPV Build',
@@ -67,6 +115,8 @@ const projects = [
 		},
 		logo: FPVIMG,
 		image: FPVIMG,
+		mainCategory: 'Robotics & Automation',
+		subCategories: ['Embedded Systems & IoT', 'Electronics & Hardware Design'],
 	},
 	{
 		name: 'SCARA Robot: Design and Control Implementation',
@@ -78,6 +128,8 @@ const projects = [
 		},
 		logo: SCARAIMG,
 		image: SCARAIMG,
+		mainCategory: 'Robotics & Automation',
+		subCategories: ['Embedded Systems & IoT','Electronics & Hardware Design'],
 	},
 	{
 		name: 'Mico Micromouse Robot',
@@ -86,6 +138,8 @@ const projects = [
     link: { href: 'https://github.com/maduwanthasl/Mico-Micromouse_V1', label: 'Project Details' },
 		logo: MICROMOUSEIMG,
 		image: MICROMOUSEIMG,
+		mainCategory: 'Robotics & Automation',
+		subCategories: ['Embedded Systems & IoT', 'Electronics & Hardware Design'],
 	},
 	{
 		name: 'Made My First Double-Layer PCB ',
@@ -97,6 +151,8 @@ const projects = [
 		},
 		logo: PCBIMG,
 		image: PCBIMG,
+		mainCategory: 'Electronics & Hardware Design',
+		subCategories: [],
 	},
 	{
 		name: 'Modeling and Simulation of Robotic Arm in ROS 2 and Gazebo',
@@ -108,6 +164,8 @@ const projects = [
 		},
 		logo: MYCOBOTING,
 		image: MYCOBOTING,
+		mainCategory: 'Robotics & Automation',
+		subCategories: [],
 	},
 	{
 		name: '8bit SAR ADC IEEE Unic-CASS 2024',
@@ -119,6 +177,8 @@ const projects = [
 		},
 		logo: UNICCASSIMG,
 		image: UNICCASSIMG,
+		mainCategory: 'IC & VLSI Design',
+		subCategories: [],
 	},
 	{
 		name: 'CMos Inverter sky130',
@@ -130,6 +190,8 @@ const projects = [
 		},
 		logo: CMOSIMG,
 		image: CMOSIMG,
+		mainCategory: 'IC & VLSI Design',
+		subCategories: [],
 	},
 	{
 		name: 'Raspberry PI Media Center',
@@ -141,6 +203,8 @@ const projects = [
 		},
 		logo: RPITVIMG,
 		image: RPITVIMG,
+		mainCategory: 'Embedded Systems & IoT',
+		subCategories: ['Electronics & Hardware Design'],
 	},
   {
 		name: 'UART implementation on FPGA',
@@ -152,6 +216,8 @@ const projects = [
 		},
 		logo: UARTIMG,
 		image: UARTIMG,
+		mainCategory: 'Telecommunication & Networking',
+		subCategories: [],
 	},
 	{
 		name: 'Imagineer 3D Printer',
@@ -163,6 +229,8 @@ const projects = [
 		},
 		logo: IMGINEERPRINTERIMG,
 		image: IMGINEERPRINTERIMG,
+		mainCategory: 'Additive Manufacturing',
+		subCategories: ['Electronics & Hardware Design'],
 	},
 	{
 		name: 'Analog High Frequency Amplifier',
@@ -174,6 +242,8 @@ const projects = [
 		},
 		logo: HIGHFAMPIMG,
 		image: HIGHFAMPIMG,
+		mainCategory: 'Electronics & Hardware Design',
+		subCategories: [],
 	},
 	{
 		name: 'Fileflow - Communication Design Project',
@@ -185,6 +255,8 @@ const projects = [
 		},
 		logo: FILEFLOWIMG,
 		image: FILEFLOWIMG,
+		mainCategory: 'Telecommunication & Networking',
+		subCategories: [],
 	},
 	{
 		name: 'Refreshmate',
@@ -196,6 +268,8 @@ const projects = [
 		},
 		logo: REFRESHMATEIMG,
 		image: REFRESHMATEIMG,
+		mainCategory: 'Embedded Systems & IoT',
+		subCategories: ['Electronics & Hardware Design'],
 	},
 	{
 		name: 'Arduino Line Follower',
@@ -207,6 +281,8 @@ const projects = [
 		},
 		logo: ANALOGLINEFOLLOWER,
 		image: ANALOGLINEFOLLOWER,
+		mainCategory: 'Robotics & Automation',
+		subCategories: ['Embedded Systems & IoT', 'Electronics & Hardware Design'],
 	},
 	{
 		name: 'Bin Picking Robot Gripper PCB',
@@ -218,6 +294,8 @@ const projects = [
 		},
 		logo: BINPICKINGIMG,
 		image: BINPICKINGIMG,
+		mainCategory: 'Electronics & Hardware Design',
+		subCategories: ['Embedded Systems & IoT'],
 	},
 	{
 		name: 'Golem - SLRC 2024',
@@ -229,6 +307,8 @@ const projects = [
 		},
 		logo: GOLEMIMG,
 		image: GOLEMIMG,
+		mainCategory: 'Robotics & Automation',
+		subCategories: ['Embedded Systems & IoT', 'Electronics & Hardware Design'],
 	},
 	{
 		name: 'Bin Picking Robot Gripper Source Code',
@@ -240,6 +320,8 @@ const projects = [
 		},
 		logo: BINPICKINGSOURCE,
 		image: BINPICKINGSOURCE,
+		mainCategory: 'Robotics & Automation',
+		subCategories: ['AI & Machine Learning' ,'Embedded Systems & IoT'],
 	},
 ]
 
@@ -254,22 +336,49 @@ function LinkIcon(props) {
 	)
 }
 
-export const metadata = {
-	title: 'Projects',
-	description: 'Apps I’ve made trying to put my dent in the universe.',
-}
-
 export default function Projects() {
+	const [selectedCategory, setSelectedCategory] = useState('All')
+
+	const filteredProjects = projects.filter((project) => {
+		if (selectedCategory === 'All') return true
+		return (
+			project.mainCategory === selectedCategory ||
+			project.subCategories.includes(selectedCategory)
+		)
+	})
+
 	return (
 		<SimpleLayout
 			title="Projects I've built to push my ideas into the real world."
 			intro="A collection of builds, experiments, and prototypes—from simulations to real hardware—that taught me the most."
 		>
+			{/* Category Filter */}
+			<div className="mb-12">
+				<div className="flex flex-wrap gap-3">
+					{categories.map((category) => (
+						<button
+							key={category}
+							onClick={() => setSelectedCategory(category)}
+							className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+								selectedCategory === category
+									? 'bg-blue-500 text-white dark:bg-blue-400'
+									: 'bg-zinc-100 text-zinc-900 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700'
+							}`}
+						>
+							{category}
+						</button>
+					))}
+				</div>
+				<div className="mt-4 text-sm text-zinc-600 dark:text-zinc-400">
+					Showing {filteredProjects.length} project{filteredProjects.length !== 1 ? 's' : ''}
+				</div>
+			</div>
+
 			<ul
 				role="list"
 				className="space-y-8"
 			>
-				{projects.map((project) => (
+				{filteredProjects.map((project) => (
 					<Card as="li" key={project.name} className="flex flex-col sm:flex-row gap-6">
 						{project.image && (
 							<div className="flex-shrink-0 h-48 w-48">
@@ -282,7 +391,20 @@ export default function Projects() {
 							</div>
 						)}
 						<div className="flex-1">
-							<h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
+							<div className="flex flex-wrap gap-2 mb-3">
+								<span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
+									{project.mainCategory}
+								</span>
+								{project.subCategories.map((subCat) => (
+									<span
+										key={subCat}
+										className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200"
+									>
+										{subCat}
+									</span>
+								))}
+							</div>
+							<h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
 								<Card.Link href={project.link.href}>{project.name}</Card.Link>
 							</h2>
 							<Card.Description>{project.description}</Card.Description>

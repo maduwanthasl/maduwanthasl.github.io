@@ -1,0 +1,78 @@
+import Image from 'next/image'
+import { SimpleLayout } from '@/components/SimpleLayout'
+import appliedRCImg from '@/images/logos/applied_rc.JPG'
+import chipsCImg from '@/images/logos/chips_c.jpg'
+
+export const metadata = {
+  title: 'Awards & Achievements',
+  description: 'Recognition and awards received for academic and professional excellence.',
+}
+
+export default function Awards() {
+  return (
+    <SimpleLayout
+      title="Awards & Achievements"
+      intro="Recognition for excellence in robotics, engineering, and academic research."
+    >
+    <div className="space-y-8">
+
+      {/* Award 1 */}
+      <div className="flex flex-col sm:flex-row gap-6">
+        <div className="flex-shrink-0 h-48 w-48">
+          <Image
+            src={appliedRCImg}
+            alt="IEEE Challenge Sphere Applied Robotics Challenge"
+            className="h-full w-full object-cover rounded-lg"
+            unoptimized
+          />
+        </div>
+        <div className="flex-1 text-zinc-300 dark:text-zinc-300">
+          <p>
+            <strong>
+              IEEE Challenge Sphere - Applied Robotics Challenge (First Runner-up)
+            </strong>
+          </p>
+          <p className="mt-1 text-sm text-zinc-400 dark:text-zinc-500">
+            Issued by IEEE Sri Lanka Section · Dec 2025
+          </p>
+          <p className="mt-2 text-zinc-400 dark:text-zinc-400">
+            Associated with University of Moratuwa
+          </p>
+          <p className="mt-2 text-zinc-400 dark:text-zinc-400">
+            I took part in the IEEE Challenge Sphere Applied Robotics Challenge as Team Tribots, working alone on the project. I designed and presented a practical robotics solution and was awarded First Runner-Up for my work.
+          </p>
+        </div>
+      </div>
+
+      {/* Award 2 */}
+      <div className="flex flex-col sm:flex-row gap-6">
+        <div className="flex-shrink-0 h-48 w-48">
+          <Image
+            src={chipsCImg}
+            alt="IEEE Challenge Sphere Chips Challenge"
+            className="h-full w-full object-cover rounded-lg"
+            unoptimized
+          />
+        </div>
+        <div className="flex-1 text-zinc-300 dark:text-zinc-300">
+          <p>
+            <strong>
+              IEEE Challenge Sphere - Chips Challenge (First Runner-up)
+            </strong>
+          </p>
+          <p className="mt-1 text-sm text-zinc-400 dark:text-zinc-500">
+            Issued by IEEE Sri Lanka Section · Dec 2024
+          </p>
+          <p className="mt-2 text-zinc-400 dark:text-zinc-400">
+            Associated with University of Moratuwa
+          </p>
+          <p className="mt-2 text-zinc-400 dark:text-zinc-400">
+            I participated in the IEEE Challenge Sphere Chips Challenge, focusing on analog and digital IC design, VLSI tools, and semiconductor fabrication, and was awarded First Runner-up.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    </SimpleLayout>
+  )
+}
