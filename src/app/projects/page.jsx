@@ -52,6 +52,7 @@ const projects = [
 		image: EKFIMG,
 		mainCategory: 'Robotics & Automation',
 		subCategories: [],
+		projectType: 'Individual',
 	},
 	{
 		name: 'SCARA Fabrication Station - ROS 2',
@@ -65,6 +66,7 @@ const projects = [
 		image: SCARAFABIMG,
 		mainCategory: 'Robotics & Automation',
 		subCategories: ['Additive Manufacturing'],
+		projectType: 'Individual',
 	},
 	{
 		name: 'LAMI Paper Implementation',
@@ -78,6 +80,7 @@ const projects = [
 		image: LAMI,
 		mainCategory: 'Robotics & Automation',
 		subCategories: ['AI & Machine Learning'],
+		projectType: 'Individual',
 	},
 	{
 		name: 'Unitree H1 Robot WBPC Control',
@@ -91,6 +94,7 @@ const projects = [
 		image: H1WBPC,
 		mainCategory: 'Robotics & Automation',
 		subCategories: [],
+		projectType: 'Individual',
 	},
 	{
 		name: 'UR10 Robotic Portrait Drawing',
@@ -104,6 +108,7 @@ const projects = [
 		image: UR10_AI_IMG_DRAW,
 		mainCategory: 'Robotics & Automation',
 		subCategories: ['AI & Machine Learning', 'Additive Manufacturing'],
+		projectType: 'Individual',
 	},
 	{
 		name: 'Custom 5" Freestyle FPV Build',
@@ -117,6 +122,7 @@ const projects = [
 		image: FPVIMG,
 		mainCategory: 'Robotics & Automation',
 		subCategories: ['Embedded Systems & IoT', 'Electronics & Hardware Design'],
+		projectType: 'Individual',
 	},
 	{
 		name: 'SCARA Robot: Design and Control Implementation',
@@ -130,6 +136,7 @@ const projects = [
 		image: SCARAIMG,
 		mainCategory: 'Robotics & Automation',
 		subCategories: ['Embedded Systems & IoT','Electronics & Hardware Design'],
+		projectType: 'Individual',
 	},
 	{
 		name: 'Mico Micromouse Robot',
@@ -140,6 +147,7 @@ const projects = [
 		image: MICROMOUSEIMG,
 		mainCategory: 'Robotics & Automation',
 		subCategories: ['Embedded Systems & IoT', 'Electronics & Hardware Design'],
+		projectType: 'Individual',
 	},
 	{
 		name: 'Made My First Double-Layer PCB ',
@@ -153,6 +161,7 @@ const projects = [
 		image: PCBIMG,
 		mainCategory: 'Electronics & Hardware Design',
 		subCategories: [],
+		projectType: 'Individual',
 	},
 	{
 		name: 'Modeling and Simulation of Robotic Arm in ROS 2 and Gazebo',
@@ -166,6 +175,7 @@ const projects = [
 		image: MYCOBOTING,
 		mainCategory: 'Robotics & Automation',
 		subCategories: [],
+		projectType: 'Individual',
 	},
 	{
 		name: '8bit SAR ADC IEEE Unic-CASS 2024',
@@ -179,6 +189,7 @@ const projects = [
 		image: UNICCASSIMG,
 		mainCategory: 'IC & VLSI Design',
 		subCategories: [],
+		projectType: 'Group',
 	},
 	{
 		name: 'CMos Inverter sky130',
@@ -192,6 +203,7 @@ const projects = [
 		image: CMOSIMG,
 		mainCategory: 'IC & VLSI Design',
 		subCategories: [],
+		projectType: 'Individual',
 	},
 	{
 		name: 'Raspberry PI Media Center',
@@ -205,6 +217,7 @@ const projects = [
 		image: RPITVIMG,
 		mainCategory: 'Embedded Systems & IoT',
 		subCategories: ['Electronics & Hardware Design'],
+		projectType: 'Individual',
 	},
   {
 		name: 'UART implementation on FPGA',
@@ -218,6 +231,7 @@ const projects = [
 		image: UARTIMG,
 		mainCategory: 'Telecommunication & Networking',
 		subCategories: [],
+		projectType: 'Group',
 	},
 	{
 		name: 'Imagineer 3D Printer',
@@ -231,6 +245,7 @@ const projects = [
 		image: IMGINEERPRINTERIMG,
 		mainCategory: 'Additive Manufacturing',
 		subCategories: ['Electronics & Hardware Design'],
+		projectType: 'Individual',
 	},
 	{
 		name: 'Analog High Frequency Amplifier',
@@ -244,6 +259,7 @@ const projects = [
 		image: HIGHFAMPIMG,
 		mainCategory: 'Electronics & Hardware Design',
 		subCategories: [],
+		projectType: 'Group',
 	},
 	{
 		name: 'Fileflow - Communication Design Project',
@@ -257,6 +273,7 @@ const projects = [
 		image: FILEFLOWIMG,
 		mainCategory: 'Telecommunication & Networking',
 		subCategories: [],
+		projectType: 'Group',
 	},
 	{
 		name: 'Refreshmate',
@@ -270,6 +287,7 @@ const projects = [
 		image: REFRESHMATEIMG,
 		mainCategory: 'Embedded Systems & IoT',
 		subCategories: ['Electronics & Hardware Design'],
+		projectType: 'Group',
 	},
 	{
 		name: 'Arduino Line Follower',
@@ -283,6 +301,7 @@ const projects = [
 		image: ANALOGLINEFOLLOWER,
 		mainCategory: 'Robotics & Automation',
 		subCategories: ['Embedded Systems & IoT', 'Electronics & Hardware Design'],
+		projectType: 'Group',
 	},
 	{
 		name: 'Bin Picking Robot Gripper PCB',
@@ -296,6 +315,7 @@ const projects = [
 		image: BINPICKINGIMG,
 		mainCategory: 'Electronics & Hardware Design',
 		subCategories: ['Embedded Systems & IoT'],
+		projectType: 'Group',
 	},
 	{
 		name: 'Golem - SLRC 2024',
@@ -309,6 +329,7 @@ const projects = [
 		image: GOLEMIMG,
 		mainCategory: 'Robotics & Automation',
 		subCategories: ['Embedded Systems & IoT', 'Electronics & Hardware Design'],
+		projectType: 'Individual',
 	},
 	{
 		name: 'Bin Picking Robot Gripper Source Code',
@@ -320,8 +341,9 @@ const projects = [
 		},
 		logo: BINPICKINGSOURCE,
 		image: BINPICKINGSOURCE,
-		mainCategory: 'Robotics & Automation',
-		subCategories: ['AI & Machine Learning' ,'Embedded Systems & IoT'],
+		mainCategory: 'Embedded Systems & IoT',
+		subCategories: [],
+		projectType: 'Group',
 	},
 ]
 
@@ -381,7 +403,7 @@ export default function Projects() {
 				{filteredProjects.map((project) => (
 					<Card as="li" key={project.name} className="flex flex-col sm:flex-row gap-6">
 						{project.image && (
-							<div className="flex-shrink-0 h-48 w-48">
+							<div className="relative z-10 flex-shrink-0 h-48 w-48">
 								<Image
 									src={project.image}
 									alt={project.name}
@@ -391,7 +413,7 @@ export default function Projects() {
 							</div>
 						)}
 						<div className="flex-1">
-							<div className="flex flex-wrap gap-2 mb-3">
+							<div className="relative z-10 flex flex-wrap gap-2 mb-3">
 								<span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
 									{project.mainCategory}
 								</span>
@@ -407,6 +429,7 @@ export default function Projects() {
 							<h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
 								<Card.Link href={project.link.href}>{project.name}</Card.Link>
 							</h2>
+							<p className="relative z-10 text-xs text-zinc-500 dark:text-zinc-400 mt-1">{project.projectType} Project</p>
 							<Card.Description>{project.description}</Card.Description>
 							<p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-blue-500 dark:text-zinc-200">
 								<LinkIcon className="h-6 w-6 flex-none" />
